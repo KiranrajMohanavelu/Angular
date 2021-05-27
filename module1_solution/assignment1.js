@@ -11,7 +11,7 @@ function calculateNoOfItems($scope) {
     $scope.lunchitems = 0;
     $scope.message = "";
 
-    $scope.evalItemscount = function() {
+    $scope.evalItemsCount = function() {
         var items_list = $scope.lunchMenu.split(',');
         if (items_list != 0){
             $scope.lunchitems = items_list.length;
